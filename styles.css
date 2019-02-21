@@ -1,0 +1,61 @@
+.navbar {
+
+}
+.navbar div {
+	display: none;
+
+}
+.navbar .toggle,
+.navbar .logo {
+	display: inline-block;
+}
+.navbar .link {
+	display: block;
+	text-align: center;
+	padding: 2%;
+	text-decoration: none;
+	background-color: lightgray;
+	color: white;
+}
+.fas fa-bars {
+	color: black;
+}
+
+.navbar .link:hover,
+.navbar .link:active {
+	color: black;
+}
+
+.navbar .logo {
+	text-align: center;
+}
+.navbar .toggle {
+	color: grey
+}
+/*@media (min-width: 48em) {
+	.navbar {
+		display: flex;
+		align-content: space-between;
+	}
+	.navbar div {
+		display: flex;
+	}
+	.navbar .navLinks {
+		display: flex;
+	}
+	.navbar .link {
+		width: auto;
+	}
+	.navbar .toggle {
+		display: none;
+	}
+} */
+
+@media (max-width: 420px) {
+	.navbar .active .toggle {
+		background-color: lightgray;
+	}
+	.navbar.active.div {
+		display: block;
+	}
+}
